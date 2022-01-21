@@ -1,1 +1,17 @@
 /* write your override styles here */
+div#wall {
+    border: 15px solid #f64b7f;
+    border-bottom: 60px solid #f64b7f;
+}
+
+div#wall {
+    -moz-box-shadow: 15px 15px 47px #40afff, -15px -15px 47px #40afff;
+    -webkit-box-shadow: 15px 15px 47px #40afff, -15px -15px 47px #40afff;
+    box-shadow: 15px 15px 47px #40afff, -15px -15px 47px #40afff;
+}
+#wall .tag-1 {
+    z-index: 10;
+}
+#wall .parent #tag-4 {
+    z-index: 5;
+}
